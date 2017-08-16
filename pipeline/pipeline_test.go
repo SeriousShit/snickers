@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/downloaders"
+	"../downloaders"
 	"github.com/snickers/snickers/types"
 )
 

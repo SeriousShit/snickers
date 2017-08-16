@@ -1,1 +1,1 @@
-curl -X POST -d @job.json http://localhost:8000/jobs
+curl -X POST -d @job_2.json http://localhost:8000/jobs

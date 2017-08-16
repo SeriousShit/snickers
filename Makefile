@@ -6,9 +6,10 @@ help:
 	@echo '    test ....................... runs tests locally'
 	@echo '    test_coverage .............. runs tests and generates coverage profile'
 
+fetch:
+	@go get
 
 build:
-	@go get
 	@go get gopkg.in/mgo.v2
 	@go get github.com/onsi/ginkgo/ginkgo
 	@go get github.com/onsi/gomega

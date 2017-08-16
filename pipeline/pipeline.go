@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
 	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/downloaders"
+	"../downloaders"
 	"github.com/snickers/snickers/encoders"
 	"github.com/snickers/snickers/helpers"
 	"github.com/snickers/snickers/types"
