@@ -1,9 +1,10 @@
 package encoders
 
 import (
+	"../db"
+	"../types"
+
 	"code.cloudfoundry.org/lager"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
 )
 
 // EncodeFunc is a function type for the multiple

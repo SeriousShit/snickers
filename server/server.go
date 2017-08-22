@@ -5,8 +5,9 @@ import (
 	"net/http"
 	"os"
 
+	"../db"
+
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
 
 	"code.cloudfoundry.org/lager"
 )

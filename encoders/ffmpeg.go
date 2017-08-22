@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"strconv"
 
+	"../db"
+	"../types"
+
 	"code.cloudfoundry.org/lager"
 
 	"github.com/3d0c/gmf"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
 )
 
 // FFMPEGEncode function is responsible for encoding the file

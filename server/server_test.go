@@ -9,14 +9,15 @@ import (
 	"path"
 	"time"
 
+	"../db"
+	"../server"
+
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/config"
 	. "github.com/onsi/gomega"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/server"
 )
 
 var _ = Describe("Snickers Server", func() {

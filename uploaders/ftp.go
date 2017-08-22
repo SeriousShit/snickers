@@ -7,11 +7,12 @@ import (
 	"path"
 	"time"
 
+	"../db"
+	"../types"
+
 	"code.cloudfoundry.org/lager"
 
 	"github.com/secsy/goftp"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
 )
 
 // FTPUpload uploades the file using FTP. Job Destination should be

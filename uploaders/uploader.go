@@ -3,8 +3,8 @@ package uploaders
 import (
 	"strings"
 
+	"../db"
 	"code.cloudfoundry.org/lager"
-	"github.com/snickers/snickers/db"
 )
 
 // UploadFunc is a function type for the multiple

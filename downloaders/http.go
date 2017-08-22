@@ -2,13 +2,15 @@ package downloaders
 
 import (
 	"strconv"
+	"time"
+
+	"../db"
 
 	"code.cloudfoundry.org/lager"
 
 	"github.com/cavaliercoder/grab"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"time"
+
 )
 
 // HTTPDownload function downloads sources using

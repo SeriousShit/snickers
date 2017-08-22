@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"../types"
+
 	"code.cloudfoundry.org/lager"
 	"github.com/gorilla/mux"
-	"github.com/snickers/snickers/types"
 )
 
 // CreatePreset creates a preset

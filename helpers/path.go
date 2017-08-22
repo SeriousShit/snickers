@@ -5,8 +5,9 @@ import (
 	"path"
 	"strings"
 
+	"../db"
+
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
 )
 
 // GetLocalSourcePath builds the path and filename for

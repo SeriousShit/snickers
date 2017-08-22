@@ -7,12 +7,13 @@ import (
 	"net/http/httptest"
 	"os"
 
+	"../db"
+	"../types"
+
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/flavioribeiro/gonfig"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
 )
 
 var _ = Describe("Job handler", func() {

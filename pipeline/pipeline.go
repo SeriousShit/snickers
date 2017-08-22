@@ -5,10 +5,17 @@ import (
 	"os"
 	"path"
 
+	"../db"
+	"../downloaders"
+	"../encoders"
+	"../helpers"
+	"../types"
+	"../uploaders"
+
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
 	"github.com/snickers/snickers/db"
-	"../downloaders"
+	"github.com/snickers/snickers/downloaders"
 	"github.com/snickers/snickers/encoders"
 	"github.com/snickers/snickers/helpers"
 	"github.com/snickers/snickers/types"

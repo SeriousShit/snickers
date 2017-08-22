@@ -5,12 +5,16 @@ import (
 	"os"
 	"reflect"
 
+	"../db"
+	"../downloaders"
+	"../types"
+
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/flavioribeiro/gonfig"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/snickers/snickers/db"
-	"../downloaders"
+	"github.com/snickers/snickers/downloaders"
 	"github.com/snickers/snickers/types"
 )
 

@@ -5,11 +5,12 @@ import (
 	"os"
 	"time"
 
+	"../db"
+
 	"code.cloudfoundry.org/lager"
 
 	"github.com/flavioribeiro/gonfig"
 	"github.com/secsy/goftp"
-	"github.com/snickers/snickers/db"
 )
 
 // FTPDownload downloads the file from FTP. Job Source should be

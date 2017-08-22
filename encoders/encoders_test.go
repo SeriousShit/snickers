@@ -4,9 +4,11 @@ import (
 	"reflect"
 	"runtime"
 
+	"../types"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/snickers/snickers/types"
+
 )
 
 var _ = Describe("Encoders", func() {

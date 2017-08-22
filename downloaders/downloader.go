@@ -3,9 +3,10 @@ package downloaders
 import (
 	"strings"
 
+	"../db"
+
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
 )
 
 // DownloadFunc is a function type for the multiple

@@ -4,8 +4,9 @@ import (
 	"errors"
 	"strings"
 
+	"../types"
+
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/types"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -4,10 +4,11 @@ import (
 	"os"
 	"path"
 
+	"../db"
+	"../types"
+
 	"code.cloudfoundry.org/lager"
 	"github.com/snickers/hls/segmenter"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
 )
 
 // HLSEncode function is responsible for encoding adaptive bitrate outputs

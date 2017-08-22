@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
+	"../pipeline"
+	"../types"
+
 	"code.cloudfoundry.org/lager"
 	"github.com/dchest/uniuri"
 	"github.com/gorilla/mux"
-	"github.com/snickers/snickers/pipeline"
-	"github.com/snickers/snickers/types"
 )
 
 // DeleteJob deletes a job

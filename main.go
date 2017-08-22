@@ -5,8 +5,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/server"
+	"./db"
+	"./server"
 )
 
 func main() {

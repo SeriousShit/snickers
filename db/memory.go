@@ -2,7 +2,7 @@ package db
 
 import (
 	"errors"
-	"github.com/snickers/snickers/types"
+	"../types"
 	"sync"
 )
 

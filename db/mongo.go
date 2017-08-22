@@ -4,8 +4,9 @@ import (
 	"errors"
 	"sync"
 
+	"../types"
+
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/types"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

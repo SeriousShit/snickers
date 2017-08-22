@@ -3,6 +3,9 @@ package downloaders
 import (
 	"os"
 
+	"../db"
+	"../helpers"
+
 	"code.cloudfoundry.org/lager"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -10,8 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/helpers"
+
 )
 
 // S3Download downloads the file from S3 bucket. Job Source should be
